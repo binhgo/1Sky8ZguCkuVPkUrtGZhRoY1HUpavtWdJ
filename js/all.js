@@ -3160,7 +3160,7 @@ function clone(obj) {
         this.activities.length > 0 ? h("h2", {
           enterAnimation: Animation.slideDown,
           exitAnimation: Animation.slideUp
-        }, "Activity feed") : void 0, h("div.items", [h("div.bg-line"), this.activities.slice(0, +(this.limit - 1) + 1 || 9e9).map(this.renderActivity)]), this.found > this.limit ? h("a.more.small", {
+        }, "Activities") : void 0, h("div.items", [h("div.bg-line"), this.activities.slice(0, +(this.limit - 1) + 1 || 9e9).map(this.renderActivity)]), this.found > this.limit ? h("a.more.small", {
           href: "#More",
           onclick: this.handleMoreClick,
           enterAnimation: Animation.slideDown,
@@ -3674,7 +3674,7 @@ function clone(obj) {
             "New users", h("a.link", {
               href: "?Users",
               onclick: Page.handleLinkClick
-            }, "Browse all \u203A")
+            }, "View all \u203A")
           ]) : void 0, this.new_user_list.render(".gray"), this.suggested_user_list.users.length > 0 ? h("h2.sep.suggested", ["Suggested users"]) : void 0, this.suggested_user_list.render(".gray")
         ])
       ]);
@@ -4308,7 +4308,7 @@ function clone(obj) {
           href: "?Home",
           onclick: Page.handleLinkClick
         }, h("img", {
-          src: "img/logo.svg",
+          src: "img/logo_net.png",
           height: 40,
           onerror: "this.src='img/logo.png'; this.onerror=null;"
         })), ((ref = Page.user) != null ? ref.hub : void 0) ? h("div.right.authenticated", [
@@ -4764,13 +4764,23 @@ function clone(obj) {
             href: this.user.getLink(),
             onclick: Page.handleLinkClick,
             style: "color: " + (Text.toColor(this.user.auth_address))
-          }, this.row.user_name), h("span.sep", " \u00B7 "), h("span.address", {
-            title: this.user.auth_address
-          }, this.row.cert_user_id), h("span.sep", " \u2015 "), h("a.added.link", {
+          }, this.row.user_name), 
+          // h("span.sep", " \u00B7 "),
+          // h("span.address", {
+          //   title: this.user.auth_address
+          // }, this.row.cert_user_id),
+          h("span.sep", " posted "),
+          h("a.link", {
+            href: this.getLink(),
+            title: "get link",
+            onclick: Page.handleLinkClick
+          }, " this "),
+          h("a.added.link", {
             href: this.getLink(),
             title: Time.date(this.row.date_added, "long"),
             onclick: Page.handleLinkClick
-          }, Time.since(this.row.date_added)), this.menu ? this.menu.render(".menu-right") : void 0, h("a.settings", {
+          }, Time.since(this.row.date_added)), this.menu ? this.menu.render(".menu-right") : void 0,
+          h("a.settings", {
             href: "#Settings",
             onclick: Page.returnFalse,
             onmousedown: this.handleSettingsClick
@@ -5988,7 +5998,8 @@ function clone(obj) {
       this.loading = true;
       params = {};
       if (this.search) {
-        search_where = "AND json.user_name LIKE :search_like OR user.user_name LIKE :search_like";
+        //search_where = "AND json.user_name LIKE :search_like OR user.user_name LIKE :search_like";
+        search_where = "AND user.user_name LIKE :search_like";
         params["search_like"] = "%" + this.search + "%";
       } else {
         search_where = "";
