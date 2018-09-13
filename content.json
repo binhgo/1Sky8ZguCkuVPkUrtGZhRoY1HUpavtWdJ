@@ -1,0 +1,351 @@
+{
+ "address": "1Sky8ZguCkuVPkUrtGZhRoY1HUpavtWdJ",
+ "address_index": 51494093,
+ "background-color": "#FFF",
+ "clone_root": "template-new",
+ "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
+ "description": "Skynet Facebook",
+ "favicon": "skynet.ico",
+ "files": {
+  "css/Activity.css": {
+   "sha512": "643bee207ed0f42011a0cecbf724eb8db811c5fa26cce29a58b7dd1bd8475594",
+   "size": 969
+  },
+  "css/Button.css": {
+   "sha512": "5ebc6597ea183f400e4ba41ce4184e3270f20bea1243cec50a382e325d6455c7",
+   "size": 2240
+  },
+  "css/Comment.css": {
+   "sha512": "bf8cfb5a85b55ea827d5ace33a48a7855fba50ed9f99d22a8af83c36fe82b6fa",
+   "size": 1097
+  },
+  "css/Editable.css": {
+   "sha512": "1b71508f14975fa2448abf99d36dff9756adaef4705ef515ebc235c47d61d70a",
+   "size": 555
+  },
+  "css/Head.css": {
+   "sha512": "a14391fd2aceb353566eb1c7a629b9111b5434fb30e81b060c63cc0c5e1ce62c",
+   "size": 1064
+  },
+  "css/Hub.css": {
+   "sha512": "c5dc8a1f40bd8d5b736bb956b1e24bd352449fbf8ee91d215da1421e89580767",
+   "size": 356
+  },
+  "css/Maxheight.css": {
+   "sha512": "bfa74f7c02d7d8bce076e096df0c1ac5743d7af8e49c98259b0a16ad35eb1499",
+   "size": 436
+  },
+  "css/Menu.css": {
+   "sha512": "d9f00baa5dfccfe800a722df17f3befddae11ff0b0c8f3c3c8006cdaf46e2c2b",
+   "size": 1376
+  },
+  "css/Overlay.css": {
+   "sha512": "f432c8aeedeca675168afbaef1bd649b62014a34ea1c972a60c3d101940e41c5",
+   "size": 394
+  },
+  "css/Post.css": {
+   "sha512": "f2c8760448dc37b0603fe8849317f99c30ba814a4e0c9f14d45fd9843b604440",
+   "size": 6935
+  },
+  "css/Uploadable.css": {
+   "sha512": "555b06db28fd78617c2f1cec50f746653dadf2ed30bbdd557a7af019aabe8e61",
+   "size": 131
+  },
+  "css/User.css": {
+   "sha512": "9a562022443eef1bdfb6c9e6ee9aefaf23647d803f3ab7a9317616f068705646",
+   "size": 2982
+  },
+  "css/ZeroMe.css": {
+   "sha512": "2f7f41d92027d8d89a434bfc710c987e393240f39721a4b8e7227936b6c27dcd",
+   "size": 3999
+  },
+  "css/all.css": {
+   "sha512": "9c2813dfa7d1e97e109b593eaca83b34bbbf78345aac3af4c7750213ec18645d",
+   "size": 140729
+  },
+  "css/fonts.css": {
+   "sha512": "8d9be9a0ad8b1295518112353f52ffbbe2dc3a8c7e43f0caf6899c9711695732",
+   "size": 83877
+  },
+  "css/icons.css": {
+   "sha512": "346b685e93883bee7e0aa245945a8aee7971420c4eba2680b5da90b14d80a1f2",
+   "size": 5817
+  },
+  "css/mobile.css": {
+   "sha512": "992ce7def88ddd41ed240a8cca2be6ce81d66f2ecbe9cb68bc2fe55d6cbe7064",
+   "size": 2314
+  },
+  "dbschema.json": {
+   "sha512": "df52e388896459d485b2a5ad1a2e3b1742f923c3823303de51e5d2c2f24ea4c8",
+   "size": 3582
+  },
+  "img/loading-circle.gif": {
+   "sha512": "339baf1bccb9b80ae29c2493e73b40cf0588c96fc095954b475dea0538aaa929",
+   "size": 2346
+  },
+  "img/loading.gif": {
+   "sha512": "8a42b98962faea74618113166886be488c09dad10ca47fe97005edc5fb40cc00",
+   "size": 723
+  },
+  "img/logo.png": {
+   "sha512": "d78789ff8f7095d45ad484943b3d4e214289aea942cd5bec03dcde3f20a4c7a7",
+   "size": 3771
+  },
+  "img/logo.svg": {
+   "sha512": "7848fc9f7a93170370c9b1853a58b1e7bb1fd6b7990d4e6f2bd250c4a5536e52",
+   "size": 490
+  },
+  "img/nav-icon.png": {
+   "sha512": "08b21939aa2c2a8761e6a41a19ae4dfa2efa0ed7309c0b6c976cfbc1ef1dc42e",
+   "size": 937
+  },
+  "img/nav-icon.svg": {
+   "sha512": "ae7a0a8466d8b4536aaf52a27073f0f8316b90f69826d0c1f6e60707bc696339",
+   "size": 634
+  },
+  "img/unkown.png": {
+   "sha512": "a972f05819097c3a38801b9004bf5011a2dcca257b915617d8ea44c202f2cdbd",
+   "size": 595
+  },
+  "index.html": {
+   "sha512": "cf68e32199721ca5b4a1162717ed1b2d342f198af5799644ff40e9704ca6385c",
+   "size": 692
+  },
+  "js-external/pngencoder.js": {
+   "sha512": "ecaadaad552d2610336995b48360253cd6d847b6aa590fc3d96e7245a5d5fe11",
+   "size": 53602
+  },
+  "js/.vscode/settings.json": {
+   "sha512": "0c8660ef660a2dc569cde33610281bdba314f0a529913fef1859a51c5d39b2eb",
+   "size": 45
+  },
+  "js/ActivityList.coffee": {
+   "sha512": "40aea8d09a4aa40d8343fc85943d1d834ab89824c5b99b38f5606ed9267b1cf1",
+   "size": 7457
+  },
+  "js/AnonUser.coffee": {
+   "sha512": "0586f424affb3a12961a6c588513d42b400b217b2cd90dbb59f333ed93cece69",
+   "size": 1062
+  },
+  "js/ContentCreateProfile.coffee": {
+   "sha512": "a3fd0e498ed8d00267748dd7746ef719569af2236808e9b4dbff5482b53425a0",
+   "size": 5204
+  },
+  "js/ContentFeed.coffee": {
+   "sha512": "33ca8ed25542f7e5002b4cc570f6260c864960fcd6f5571aa524a95db91cb50d",
+   "size": 2673
+  },
+  "js/ContentProfile.coffee": {
+   "sha512": "5c40462733d9bf1e32a3e61071c9789ceeae7cbc64a508c9a27c616d772ffe2d",
+   "size": 8360
+  },
+  "js/ContentUsers.coffee": {
+   "sha512": "38859aeb078226f974b13679d2b98933fa5cefdc3daae3bdb1d549997b357de3",
+   "size": 3686
+  },
+  "js/Head.coffee": {
+   "sha512": "d1eb1d1c03433b0e5ce76891dcd2b3547ab8f81cef1ced5cecf0acee792dacff",
+   "size": 5417
+  },
+  "js/Post.coffee": {
+   "sha512": "512c8cf845e7144d6b14c144ead8f340e2326e7ae483ba9baeeb56086eb223e6",
+   "size": 9283
+  },
+  "js/PostCreate.coffee": {
+   "sha512": "60ed13bd2fe90d1df649590dc6c600f23e9ea018e6921855f3f472e28bc93fde",
+   "size": 3172
+  },
+  "js/PostList.coffee": {
+   "sha512": "ef0204ba36cda850c230c9c994b77e4236e50a630a1dfa6bf406ca693b59403d",
+   "size": 4073
+  },
+  "js/PostMeta.coffee": {
+   "sha512": "6c418b9f20e58462ccf89d3c5db74d2371a3f863eccd5c6b6f47281a1d349be8",
+   "size": 4057
+  },
+  "js/Trigger.coffee": {
+   "sha512": "5c008a43ec3c30deb3c81f3a4ee15b324d5d54bf988caa088e5605eab81cdfb7",
+   "size": 447
+  },
+  "js/User.coffee": {
+   "sha512": "fa43528e5a76e1a86f0e0c9594cf933137bb9b68de7cc1a5f2c23444ad62ce5a",
+   "size": 9513
+  },
+  "js/UserList.coffee": {
+   "sha512": "a232a90c2e30c7b2cae5349bac3a54bae8e6944ed00f58706a5ba4b8c96a735a",
+   "size": 4348
+  },
+  "js/ZeroMe.coffee": {
+   "sha512": "6eb4aecefc2bcc19b691727f0796eccacf828592bd21b2006330ee45ca647b9c",
+   "size": 10008
+  },
+  "js/all.js": {
+   "sha512": "033c9bdfa5bafcdd252a44e5f899f5ccbfe6c78483381e426aaae53938913a7c",
+   "size": 269478
+  },
+  "js/lib/Class.coffee": {
+   "sha512": "ae32c72fe6615132791361a5e8cf412ddb2a2fa59d9d33db4bb8e29d50a8568d",
+   "size": 490
+  },
+  "js/lib/Dollar.coffee": {
+   "sha512": "f0dd3bedea41a5aea01ffeb7b3ac51750da78a01efb444b71e6b5a3d73071726",
+   "size": 114
+  },
+  "js/lib/Promise.coffee": {
+   "sha512": "6fc8113fe7a1bb435bc52cf71442121314366727854ef226d9b7034a3c901aff",
+   "size": 1721
+  },
+  "js/lib/Property.coffee": {
+   "sha512": "f7c03e36f42eaec419a258c24e4df2815654532e4e0536050e9d23970db2f29f",
+   "size": 83
+  },
+  "js/lib/Prototypes.coffee": {
+   "sha512": "b5b4183fbca7c6fa0a53ac2b243034f1f5da7be09713b9f23605b732748e489c",
+   "size": 235
+  },
+  "js/lib/RateLimitCb.coffee": {
+   "sha512": "ae21322c33aec00ea09aeb25ac64aa4f87e9d404d55acdd550f01d5c10a99ebf",
+   "size": 2172
+  },
+  "js/lib/anime.min.js": {
+   "sha512": "10669107a89bdf6ce9d2c074e20866a903d77264f3ab87f7f45ea5b8abfb84ee",
+   "size": 9621
+  },
+  "js/lib/clone.js": {
+   "sha512": "15c035922c4c044c3209f35b5d514bb7e680d6b09b8127ece4856138b51e8871",
+   "size": 236
+  },
+  "js/lib/maquette.js": {
+   "sha512": "13a5915b13b613f8221b03b3ea0d96fde1b4bf5dbbe5b5b8517998c0f9201c2f",
+   "size": 35669
+  },
+  "js/lib/marked.min.js": {
+   "sha512": "02de304785538b504575f2355fcd5069cb8644fc2eebe5caffb8408b891f1c9d",
+   "size": 19160
+  },
+  "js/utils/Animation.coffee": {
+   "sha512": "6a04b4ef82f45f9339bff3c529e71aa5ebec01a34993f62ac3316d10c0f5f48a",
+   "size": 7112
+  },
+  "js/utils/Autosize.coffee": {
+   "sha512": "603f92d4991d25d9ddcf36651f978fb08392ef66dcf2cd1767cbbb28bf83618b",
+   "size": 1595
+  },
+  "js/utils/Debug.coffee": {
+   "sha512": "7c14ee6e869343924fffb01f2926b6791c9b5203874c27f871fc04616174687b",
+   "size": 296
+  },
+  "js/utils/Editable.coffee": {
+   "sha512": "1aeae71133d58f89863af681b010709e9104af1af91aad065a332245ec8582ed",
+   "size": 1685
+  },
+  "js/utils/ImagePreview.coffee": {
+   "sha512": "d4cb5054b346e653485563d74e3103c0b265ba34646fea1d9b3e8ce5028458a0",
+   "size": 2058
+  },
+  "js/utils/ItemList.coffee": {
+   "sha512": "85d04c629cd9dc41e58bd8ce15f8533c5ebd21dc76c24c57a6054942a9ceb0d8",
+   "size": 611
+  },
+  "js/utils/Maxheight.coffee": {
+   "sha512": "43b55d3717890bee76ea42d28a10563de85b5f4ff29bf24937a7d415f7c27e35",
+   "size": 492
+  },
+  "js/utils/Menu.coffee": {
+   "sha512": "49f94bd64d12c4fd3773194843ee89c6cab2b9305e929033da96faf3f08e23a6",
+   "size": 1870
+  },
+  "js/utils/Overlay.coffee": {
+   "sha512": "a537a46fbe1fe491ce3550eb0db40b72d88675862d3f80808452fcea71abdfbb",
+   "size": 3152
+  },
+  "js/utils/Scrollwatcher.coffee": {
+   "sha512": "201bc56b139055cdda78cf83b535803604ba49701eee2a189b5bb824b271b1b0",
+   "size": 585
+  },
+  "js/utils/Text.coffee": {
+   "sha512": "250c15fe7550091c44f6301a17577462c6e3c11ef5f13630cc63ed6a37b7c67a",
+   "size": 5398
+  },
+  "js/utils/Time.coffee": {
+   "sha512": "d08bf49647721ae89fa4862fd8b131491dfa8d529f79f3830fe98f1698782d3b",
+   "size": 1017
+  },
+  "js/utils/Translate.coffee": {
+   "sha512": "6f1c883de2def2e2a62ceb00123f6ba45d545ed69dcf3cc216b5660bdc6423e6",
+   "size": 26
+  },
+  "js/utils/Uploadable.coffee": {
+   "sha512": "273f925bbb8940c6ca3acb06d5337690e57afffa18cc170353b6011abd17747d",
+   "size": 4704
+  },
+  "js/utils/ZeroFrame.coffee": {
+   "sha512": "342048e3d262bc140212e271f752bdb20fbd103bef6073f5107eb2fc031eda23",
+   "size": 2207
+  },
+  "languages/da.json": {
+   "sha512": "4f2f12eae363ddde1e93f0367f8dd9a95d662037b55ee44f85bcf7b51d3bd7b9",
+   "size": 3034
+  },
+  "languages/fr.json": {
+   "sha512": "0024ab744966e6fecbd3e96d9e9f1654d3f90194559b6bbeca3a6d88f8e205b6",
+   "size": 3366
+  },
+  "languages/hu.json": {
+   "sha512": "bc0f53e096ff1c701c63b0db227e5c51373c1903785ac448f1d9c44e81a1701f",
+   "size": 3294
+  },
+  "languages/it.json": {
+   "sha512": "1c42726e332c5d6ff682134284c81f873d6c067ea94ea6a78f6dccd32013fef8",
+   "size": 3300
+  },
+  "languages/nl.json": {
+   "sha512": "e65854122ff153a800991f8e8d5cb176fb5b63dbd75f490ba199853dc7f4e51c",
+   "size": 3461
+  },
+  "languages/pt-br.json": {
+   "sha512": "f9f2a0dc5bfb1c34b3d2adaf1d39b9fbf62f08e319a7150274d47711d448e6e9",
+   "size": 3412
+  },
+  "languages/sk.json": {
+   "sha512": "3e7e1619cd3cc6a63d83b9249963b951042a38853e43c6606004ed097a111b3a",
+   "size": 3516
+  },
+  "languages/tr.json": {
+   "sha512": "b2e44ab7654be1fc151062c252de892a0efef039a874e1ed1940838ceb5162d7",
+   "size": 3347
+  },
+  "languages/zh-tw.json": {
+   "sha512": "be59ecafd74e56b4f00136bc5c281dd6c884ce89f19922fea2ef8ca644e68030",
+   "size": 3315
+  },
+  "languages/zh.json": {
+   "sha512": "31ac5ae9e23897c9c524cb55f931bd0258f94120b8ca88c17bfc75e85408e061",
+   "size": 3335
+  },
+  "skynet.ico": {
+   "sha512": "94bf763385fcbee77b9fa9ca94c7debf39a8a6c36633d953eecfaf82b8b3ae08",
+   "size": 1150
+  }
+ },
+ "ignore": "",
+ "inner_path": "content.json",
+ "modified": 1535367588,
+ "postmessage_nonce_security": true,
+ "settings": {
+  "default_hubs": {
+   "1P1EZnxCLRh21hTe4GgR8cHK26KSXcYYy8": {
+    "description": "Skynet user please choose this hub",
+    "title": "Skynet"
+   }
+  }
+ },
+ "signers_sign": "HMNCyd1strG/+fIhAUHJmURi7USs9My1BOJAlRLk19KTHOW69jmccFQ1QSQPEKEpxxpdFaf9JjRz9najnxmnmz4=",
+ "signs": {
+  "1Sky8ZguCkuVPkUrtGZhRoY1HUpavtWdJ": "HCBhR5h/Q3uvT4X3uwcLms6Jb9QctCFdwunoxHyjAYSDcNHSoJFYWCtGeB//hED9DV+TFiRX7w9qKBzYFrztmck="
+ },
+ "signs_required": 1,
+ "title": "Skynet - Blockchain Facebook",
+ "translate": ["js/all.js"],
+ "zeronet_version": "0.6.3"
+}
