@@ -195,7 +195,7 @@
 .post .user:hover .settings { opacity: 1; -webkit-transition: none ; -moz-transition: none ; -o-transition: none ; -ms-transition: none ; transition: none  }
 
 .post .user { padding-bottom: 8px; height: 21px; line-height: 20px; }
-.post .user .address, .post .added, .post .sep { font-size: 14px; color: #AAA;}
+.post .user .address, .post .added, .post .sep { font-size: 12px; color: #AAA;}
 .post .body { padding-top: 2px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; line-height: 1.5em; color: #333; word-break: break-word; overflow: hidden }
 .post .reply-name { font-size: 14px; font-family: Roboto, Helvetica, Arial; color: #000 }
 .post .actions { height: 30px; margin-left: -5px; }
