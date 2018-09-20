@@ -4310,8 +4310,10 @@ function clone(obj) {
         }, h("img", {
           src: "img/logo_net.png",
           height: 40,
-          onerror: "this.src='img/logo.png'; this.onerror=null;"
-        })), ((ref = Page.user) != null ? ref.hub : void 0) ? h("div.right.authenticated", [
+          onerror: "this.src='img/logo_net.png'; this.onerror=null;"
+        })
+        ),
+        , ((ref = Page.user) != null ? ref.hub : void 0) ? h("div.right.authenticated", [
           h("div.user", h("a.name.link", {
             href: Page.user.getLink(),
             onclick: Page.handleLinkClick
@@ -4847,7 +4849,7 @@ function clone(obj) {
       this.handleUpload = __bind(this.handleUpload, this);
       this.startEdit = __bind(this.startEdit, this);
       this.field_post = new Autosize({
-        placeholder: "Write something...",
+        placeholder: "What's on your mind?",
         "class": "postfield",
         onfocus: this.startEdit,
         onblur: this.startEdit
@@ -4947,7 +4949,7 @@ function clone(obj) {
         }), h("div.postbuttons", h("a.button.button-submit", {
           href: "#Submit",
           onclick: this.handlePostSubmit
-        }, "Submit new post")), h("div", {
+        }, "Share")), h("div", {
           style: "clear: both"
         }));
       } else if (Page.site_info.cert_user_id) {

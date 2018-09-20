@@ -600,8 +600,8 @@
    "size": 3999
   },
   "css/all.css": {
-   "sha512": "6cb38090e077407dba6bc33523f435d6e01d02c0f46584bf87d7f77b9cd70ad3",
-   "size": 140741
+   "sha512": "9e564f0b2fe34080cf720795adf257fbd521ff737faf572d30c2bde6cf590621",
+   "size": 140713
   },
   "css/fonts.css": {
    "sha512": "8d9be9a0ad8b1295518112353f52ffbbe2dc3a8c7e43f0caf6899c9711695732",
@@ -874,7 +874,7 @@
  },
  "ignore": "",
  "inner_path": "content.json",
- "modified": 1536919298,
+ "modified": 1537110610,
  "postmessage_nonce_security": true,
  "settings": {
   "default_hubs": {
@@ -886,7 +886,7 @@
  },
  "signers_sign": "HMNCyd1strG/+fIhAUHJmURi7USs9My1BOJAlRLk19KTHOW69jmccFQ1QSQPEKEpxxpdFaf9JjRz9najnxmnmz4=",
  "signs": {
-  "1Sky8ZguCkuVPkUrtGZhRoY1HUpavtWdJ": "HJbnIKNmhcQ+DqygTsRSYjosZcv3Qbi8X5TaitBw+aoWGQziBwsCAqS9lnL4fK8B9fqrXp9+5dbfJOBqf2QPkew="
+  "1Sky8ZguCkuVPkUrtGZhRoY1HUpavtWdJ": "HG3uSfDHOP7L7Gu3CkT8xgjm8f84asZPV5iwuBIzNo7XA7icS9gwQ3LHP9eMx4KdCcyzy0YCfQhYX2BO3eQOtZQ="
  },
  "signs_required": 1,
  "title": "Skynet - Blockchain Facebook",
